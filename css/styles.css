@@ -1,6 +1,42 @@
+body{
+    text-align: center;
+}
+
+
+/* Navbar  */
+
 .navbar{
     color: #fff;
 }
-#main-div{
+
+/* weather content */
+
+#weather-div{
     text-align: center;
+    background-color:aqua;
+    padding: 2rem 10rem;
+}
+
+/* current weather box */
+
+.current-weather-box{
+    /* margin: auto; */
+    padding: 1.5rem;
+    background-color: #fff;
+    border: 2px solid;
+    border-radius: 12px;
+    margin: auto;
+    text-align: center;    
+    width:50%;   
+}
+
+/* five day forecast boxes */
+.forecast-box{
+    
+    border: 2px solid;
+    background-color: #fff;
+    border-radius: 12px;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+
 }
